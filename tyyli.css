@@ -1,0 +1,33 @@
+body {
+    color: rgb(80,52,24);
+    background-color: rgb(252,246,243);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin: 0; /*selain luo automaattisesti pienen marginaalin*/
+}
+
+header{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.alisivu-sisalto {
+    background-color: rgb(255, 248, 239);
+    display:flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+h1 {
+    font-family: otsikko, "serif";
+    font-size: 60px;
+    color: rgb(153, 0, 17);
+    text-align: center;
+    padding-top: 30px;
+}
+
+h2, h3 {
+    font-family: otsikko, "serif"; 
+    }
+
+/*päävalikko*/
