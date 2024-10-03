@@ -1,41 +1,63 @@
 <!DOCTYPE html>
 <html lang="fi">
- <head>
-        <title>Blogi kahviloista Helsingissa - Hi u!</title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="robots" content="noindex">
-      <meta name="googlebot" content="noindex">
- </head>
-
- <body>
-    <header id="etusivu">
+<head>
+    <title>Blogi kahviloista Helsingissa - Hi u!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyyli.css">
+</head>
+<body>
+    <header>
         <nav>
             <a href="index.html">Etusivu</a>
             <a href="blog.html">Blogi</a>
             <a href="contact.html">Yhteistiedot</a>
         </nav>
-        <h1 id="slogan">Kerron kokemukseni Helsingin kahviloista</h1>
-        <a href="blog.html" class="toimintakehote">Lue Blogini</a>
     </header>
 
-    <div class="sisältö">
+    <section class="blog">
+        <h2>Uusin Blogista</h2>
+        
+        <div class="blog-carousel">
+            <button class="carousel-btn left-btn"></button>
+    
+            <div class="blog-post">
+                <div class="post-image">
+                    <img src="Kuva_1.jpg" alt="Hi u logo">
+                </div>
+                <h3>Kerron kokemukseni 1</h3>
+                <p class="post-date">03.09.2024</p>
+                <p>Kerron kokemukseni Helsingin kahviloista...</p>
+                <a href="#" class="read-more">Lue lisä -></a>
+            </div>
 
-        <h2>Tervetuloa hi u -blogiin!</h2>
+            <div class="blog-post">
+                <div class="post-image">
+                    <img src="Kuva2.jpg" alt="Hi u logo">
+                </div>
+                <h3>Kerron kokemukseni 2</h3>
+                <p class="post-date">09.09.2024</p>
+                <p>Kerron kokemukseni Helsingin kahviloista...</p>
+                <a href="#" class="read-more">Lue lisä -></a>
+            </div>
 
-        <p class="esittely"> 
-            Etsitkö Helsingin parhaita kahviloita? Olet oikeassa paikassa! hi u -blogissa esittelemme kaupungin tunnelmallisimmat kahvilat, herkullisimmat kahvijuomat ja mukavimmat paikat rentoutumiseen.
-        </p>
-    </div>
+            <div class="blog-post">
+                <div class="post-image"> 
+                    <img src="Kuva3.jpg" alt="Hi u logo">
+                </div> 
+                <h3>Kerron kokemukseni 3</h3>
+                <p class="post-date">18.09.2024</p>
+                <p>Kerron kokemukseni Helsingin kahviloista...</p>
+                <a href="#" class="read-more">Lue lisä -></a>
+            </div>
+
+            <button class="carousel-btn right-btn"></button>
+        </div>
+    </section>
+
     <footer>
-        <div>
-            <p> Copyrihgt &copy; 2024, Hu u!</p>
-        </div>
-        <div> 
-            <p>
-                <a href="mailto:info@Hi_u!.fi">info@Hi_u!.fi</a>
-            </p>
-        </div>
+        <p>Copyright &copy; 2024, Hu u!</p>
+        <p><a href="mailto:info@Hi_u.fi">info@Hi_u.fi</a></p>
     </footer>
-  </body>
- </html>
+</body>
+</html>
