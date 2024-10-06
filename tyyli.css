@@ -2,7 +2,7 @@ body {
     color: rgb(80,52,24);
     background-color: rgb(252,246,243);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px; /* Default font size for readability */
+    font-size: 30px; 
     margin: 0; 
     text-align: center;
 }
@@ -20,7 +20,7 @@ header {
 footer {
     color: rgb(80,52,24);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px; /* Default font size for readability */
+    font-size: 20px; 
     margin: 0; 
     text-align: center;
 }
@@ -33,9 +33,9 @@ nav {
 }
 
 nav a {
-    margin: 10px; /* Adjusted margin for mobile */
+    margin: 10px; 
     text-decoration: none;
-    font-size: 30px; /* Default font size for readability */
+    font-size: 30px; 
     color: rgb(153, 0, 17);
 }
 
@@ -44,13 +44,13 @@ nav a:hover {
 }
 
 .logo img {
-    width: 25%; /* Adjusted for mobile view */
+    width: 25%; 
     height: auto;
     margin-bottom: 0;
 }
 
 #slogan {
-    font-size: 45px; /* Adjusted for mobile */
+    font-size: 45px;
     color: rgb(153, 0, 17);
     margin: 1px;
 }
@@ -59,8 +59,8 @@ nav a:hover {
     display: inline-block;
     background-color: rgb(153, 0, 17);
     color: rgb(252,246,243);
-    padding: 10px 20px; /* Adjusted for mobile*/ 
-    font-size: 30px; /* Adjusted for mobile*/ 
+    padding: 10px 20px; 
+    font-size: 30px; 
     text-decoration: none;
     border-radius: 30px;
     margin-top: 5%;
@@ -69,54 +69,54 @@ nav a:hover {
 .button:hover {
     background-color: rgb(120, 0, 13);
 }
-/* Update button styles */
+
 .carousel-btn {
-    background-color: transparent; /* No background */
-    color: rgb(153, 0, 17); /* Red color for text */
-    border: none; /* Remove border */
-    padding: 0; /* Remove padding */
-    font-size: 30px; /* Adjust size for visibility */
-    cursor: pointer; /* Change cursor to pointer */
-    width: auto; /* Automatic width */
-    height: auto; /* Automatic height */
-    margin: 0 10px; /* Space between buttons */
+    background-color: transparent; 
+    color: rgb(153, 0, 17);
+    border: none; 
+    padding: 0; 
+    font-size: 30px;
+    cursor: pointer; 
+    width: auto; 
+    height: auto; 
+    margin: 0 10px; 
 }
 
 .carousel-btn::before {
-    content: "<"; /* Left button */
-    display: inline-block; /* Display inline */
-    font-size: 30px; /* Adjust size as needed */
+    content: "<"; 
+    display: inline-block; 
+    font-size: 30px; 
 }
 
 .carousel-btn.right-btn::before {
-    content: ">"; /* Right button */
+    content: ">";
 }
 
 .content {
-    padding: 20px; /* Adjusted for mobile */
+    padding: 20px; 
 }
 
 .content h1 {
-    font-size: 40px; /* Adjusted for mobile */
+    font-size: 40px;
     color: rgb(153, 0, 17);
 }
 
 .content p {
-    font-size: 25px; /* Adjusted for mobile */
+    font-size: 25px; 
 }
 
 footer {
     background-color: rgb(252,246,243);
-    padding: 10px 0; /* Adjusted for mobile */
+    padding: 10px 0; 
 }
 
 footer p {
-    font-size: 20px; /* Adjusted for mobile */
+    font-size: 20px;
     color: rgb(80, 52, 24);
 }
 
 footer a {
-    color: rgb(153, 0, 17); /* Set email link color to red */
+    color: rgb(153, 0, 17); 
 }
 
 
@@ -125,7 +125,7 @@ footer a {
 }
 
 .blog h2 {
-    font-size: 30px; /* Adjusted for mobile */
+    font-size: 30px; 
     color: rgb(153, 0, 17);
     margin-bottom: 30px;
 }
@@ -142,8 +142,8 @@ footer a {
     background-color: rgb(153, 0, 17);
     color: white;
     border: none;
-    padding: 5px 10px; /* Adjusted for mobile */
-    font-size: 18px; /* Adjusted for mobile */
+    padding: 5px 10px;
+    font-size: 18px; 
     cursor: pointer;
 }
 
@@ -152,20 +152,20 @@ footer a {
 }
 
 .blog-post {
-    padding: 10px; /* Adjusted for mobile */
+    padding: 10px;
     text-align: center;
-    width: 100%; /* Full width for mobile */
+    width: 100%; 
 }
 
 .post-image {
-    max-width: 100%; /* Responsive image */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
     /*background-color: rgb(80, 52, 24);*/
     margin-bottom: 15px;
 }
 
 .blog-post h3 {
-    font-size: 30px; /* Adjusted for mobile */
+    font-size: 30px; 
     color: rgb(80, 52, 24);
     margin-bottom: 10px;
 }
@@ -177,12 +177,12 @@ footer a {
 }
 
 .blog-post p {
-    font-size: 25px; /* Adjusted for mobile */
+    font-size: 25px;
     margin-bottom: 15px;
 }
 
 .read-more {
-    font-size: 25px; /* Adjusted for mobile */
+    font-size: 25px; 
     color: rgb(153, 0, 17);
     text-decoration: none;
 }
@@ -190,7 +190,13 @@ footer a {
 .read-more:hover {
     text-decoration: underline;
 }
-
+.read-all {
+    display: block; 
+    color: rgb(153, 0, 17); 
+    font-size: 30px;  
+    margin: 20px auto; 
+    max-width: 300px; 
+}
 main {
     flex: 1;
     display: flex;
@@ -214,40 +220,70 @@ main {
     text-align: left; 
     margin-left: 15%;
 }
+.social-media {
+    margin-top: 20px; 
+}
 
-/* Responsive Styles */
+.social-icon {
+    font-size: 30px; 
+    margin: 0 15px; 
+    color: rgb(153, 0, 17);
+    text-decoration: none; 
+}
+
+.social-icon:hover {
+    color: rgb(120, 0, 13); 
+}
+
+
 @media (max-width: 700px) {
     body {
-        font-size: 16px; /* Font size for mobile */
+        font-size: 16px; 
     }
     header {
         flex-direction: column;
     }
     .blog-carousel {
-        flex-direction: column; /* Change to column layout */
-        align-items: flex-start; /* Align items to the start */
+        flex-direction: column; 
+        align-items: flex-start;
     }
 
     .carousel-btn {
-        margin-top: 20px; /* Add space above buttons */
+        display: none; 
     }
     .logo img {
-        width: 50%; /* Increase size for mobile */
+        width: 50%; 
     }
+    .flex-container {
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%;
+        text-align: center;
+    }
+    .flex-container img {
+        width: 100%
+        margin-bottom: 20px;
+    }
+    .description {
+        width: 100%;
+        text-align: center; 
+        padding: 0 10px;
+    }
+
 }
 
 @media (min-width: 1200px) {
     body {
-        font-size: 20px; /* Font size for laptop */
+        font-size: 20px; 
     }
     .content {
-        padding: 40px 10%; /* More padding for larger screens */
+        padding: 40px 10%; 
     }
     .blog-post {
-        width: 250px; /* Set a fixed width for blog posts */
+        width: 250px; 
     }
     .button {
-        padding: 15px 30px; /* Increase padding for bigger button */
-        font-size: 35px; /* Increase font size */
+        padding: 15px 30px;
+        font-size: 35px; 
     }
 }
